@@ -42,6 +42,7 @@ background-color: #dcd4d4;
     background-color: red;
     border-radius: 5px;
     padding: 18px 40px;
+    font-weight: 500;
     
     margin-top: 300px;
     text-decoration: none;
@@ -61,5 +62,181 @@ background-color: #dcd4d4;
     
 }
 
-.fa-solidr.filled{
-    color: gold;
+/* next section start  */
+
+
+.next-section-start{
+    width: 100%;
+    margin: auto;
+    display: flex;
+     justify-content: center;
+     justify-items: center;
+}
+
+.match-button{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.match-button a{
+    text-decoration: none;
+    background-color: #ffff;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#red-button{
+    background-color: red;
+    color: #ffff;
+}
+
+
+.card-parent{
+    margin-left: 20px;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap: 30px;
+    
+    
+}
+.one-card-setup{
+    width: 300px;
+    height: 350px;
+}
+
+.clock-button{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quarry */
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+    
+    .home-fast-section{
+        width: 70%;
+        margin: auto;
+        margin-top: 40px;
+        display:inline-flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 60px;
+        padding-right: 40px;
+        
+    }
+    .main-section-titel{
+        font-size: 40px;
+        /* padding-left: 60px;
+        padding-right: 50px; */
+       align-items: center;
+        
+    }
+    .main-section-banner{
+        display: flex;
+        width: 150px;
+        height: 200px;
+        margin-left: 5px;
+        padding-left: 20px;
+    }
+    .main-section-watch-button{
+        margin-left: 50px;
+        padding: 10px 10px;
+        
+    }
+    .artical-main{
+        padding-bottom: 30px;
+    }
+
+    .next-section-start{
+        flex-direction: column;
+    }
+
+
+    .card-parent{
+        margin-left: 20px;
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-column-gap: 30px;
+        
+        
+    }
+
+
+
+
+
+    .match-button{
+        background-color: #dcd4d4;
+    }
+
+}
+
+
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
