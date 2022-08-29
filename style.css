@@ -1,0 +1,65 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: #dcd4d4;
+}
+
+/* home section style */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.home-fast-section{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.main-section-titel {
+    font-size: 60px;
+    color: #ffff;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.main-section-paragrapy{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #ffff;
+}
+.main-section-watch-button{
+    color: #ffff;
+    background-color: red;
+    border-radius: 5px;
+    padding: 18px 40px;
+    
+    margin-top: 300px;
+    text-decoration: none;
+    
+}
+.artical-main{
+    padding-bottom: 60px;
+}
+
+
+.main-section-banner{
+    width: 1000px;
+    height: 600px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    padding-bottom: 0px;
+    
+}
+
+.fa-solidr.filled{
+    color: gold;
