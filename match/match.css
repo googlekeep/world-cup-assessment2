@@ -120,12 +120,22 @@ background-color: #dcd4d4;
     margin-bottom: 20px;
 }
 
-
+.image-div {
+    display: flex;
+    width: auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
 .cards-descripsion{
     display: flex;
 }
-
+.titel-vs{
+    text-align: center;
+    justify-content: center;
+}
 .clock-button{
     display: flex;
     
